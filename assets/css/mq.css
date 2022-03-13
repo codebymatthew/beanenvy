@@ -1,0 +1,95 @@
+@media screen and (max-width: 1300px) {
+    .mainWrapper, .navWrapper, .locationWrapper {
+        width: 75%;
+    }    
+    .menuModalContainer {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1120px) {
+    .mainWrapper, .navWrapper, #locationWrapper, .updateWrapper, .headerWrapper, header {
+        width: 95%;
+    }
+    .footerWrapper {
+        width: 85%;
+    }
+    .headerWrapper {
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .navList {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: block;
+    }
+    .navLogo {
+        width: 100%;
+    }
+    .navWrapper {
+        margin: 0 auto;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .productListing {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .ambianceListing {
+        flex-basis: 100%;
+        margin: 0 0 10rem 0;
+    }
+    #locationWrapper {
+        margin-bottom: 7.5rem;
+    }
+    .footerWrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5rem auto;
+        text-align: center;
+    }
+    .footerCol {
+        flex-basis: 48%;
+        margin-bottom: 1rem;
+    }
+    .col1 {
+        flex-basis: 100%;
+    }
+    .footerSocialList{
+        display: flex;
+        height: 85%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menuModalContainer {
+        width: 80%;
+        height: 30%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .updateInputWrapper {
+        justify-content: center;
+    }
+    .updateInput {
+        width: 80%;
+        margin-bottom: 1rem;
+        margin-right: 0;
+}   
+}
+@media screen and (max-width: 364px){
+    #aboutUs {
+        flex-direction: column;
+    }
+    .serviceDescription {
+        margin-bottom: 2rem;
+    }
+    .ambianceListing {
+        margin-top: 5rem;
+    }
+}

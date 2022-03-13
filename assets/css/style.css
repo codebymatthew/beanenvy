@@ -1,0 +1,469 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+/* ====================
+         FONTS 
+ =====================*/
+
+/* Bebas neue font */
+.navLink, .headerWrapper, *{
+    font-family: 'Roboto', sans-serif;
+}
+#navLogo, .headerWrapper h1, .col1 span, .sectionTitle, .productListing h5, .menuItem, .menuModalCloseBtn{
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* .sectionTitle {
+    font-family: 'Smooch Sans', sans-serif;
+} */
+/* ====================
+       Base Styles 
+ =====================*/
+.btn {
+    background: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: calc(5% + .2rem);
+    text-shadow: none;
+}
+/* ====================
+NAV | HEADER
+=====================*/
+
+.navWrapper {
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+#navLogo {
+    font-size: 2.8rem;
+}
+.navList {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50rem;
+}
+.navLink a {
+    text-decoration: none;
+    color: #000;
+    
+}
+.navLink{
+    font-size: 1.8rem;
+}
+.hamburgerMenu {
+    display: none;
+    cursor: pointer;
+}
+
+header {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 50rem;
+    margin: 0 auto;
+    background: url('../images/coffee-1324126_1920.webp') center no-repeat;
+    background-size: cover;
+    color: white;
+}
+.headerWrapper {
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 10px #000000;
+}
+.headerWrapper h2 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.headerWrapper h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.headerWrapper p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.coziest {
+    text-align: center;
+}
+.menuBtn {
+    font-size: 1.5rem;
+}
+/* ====================
+         MAIN 
+ =====================*/
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.mainWrapper h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.mainP {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.mainWrapper h3 {
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    color: #636363;
+}
+
+/* ====================
+PRODUCT / SERVICE LISTINGS
+=====================*/
+#ourCoffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+
+ }
+.productListing {
+    text-align: center;
+    margin-right: 2rem;
+    flex-basis: 45%;
+    height: 50rem;
+    margin-bottom: 12rem;
+}
+.productImg1 {
+    background: url('../images/productimg1.webp') center no-repeat;
+    background-size: cover;
+}
+.productImg2 {
+    background: url('../images/productimg2.webp') center no-repeat;
+    background-size: cover;
+}
+.productImg3 {
+    background: url('../images/productimg3.webp') center no-repeat;
+    background-size: cover;
+}
+.productImg4 {
+    background: url('../images/productimg4.webp') center no-repeat;
+    background-size: cover;
+}
+.productImg1,.productImg2,.productImg3,.productImg4 {
+    height: 100%;
+    width: 100%;
+}
+.productDescription {
+    width: 100%;
+}
+.productDescription span {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    display: block;
+}
+.productP {
+    font-size: 1.5rem;
+}
+#aboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10rem 0;
+}
+.serviceListing {
+    flex-basis: 31%;
+    height: 35rem;
+}
+.serviceImg1{
+    background: url('../images/services/serviceimg1.webp') center no-repeat;
+}
+.serviceImg2{
+    background: url('../images/services/serviceimg2.webp') center no-repeat;
+}
+.serviceImg3{
+    background: url('../images/services/serviceimg3.webp') center no-repeat;
+}
+.serviceImg4{
+    background: url('../images/services/serviceimg4.webp') left no-repeat;
+}
+.serviceListing4 {
+    order: 1;
+}
+.serviceImg5{
+    background: url('../images/services/serviceimg5.webp') center no-repeat;
+}
+.serviceImg6{
+    background: url('../images/services/serviceimg6.webp') center no-repeat;
+}
+.serviceImg1, .serviceImg2, .serviceImg3, .serviceImg4, .serviceImg5, .serviceImg6 {
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+}
+.serviceDescription {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+#aboutUs h3 {
+    width: 100%;
+    text-align: center;
+}
+/* ====================
+         PARALLAX 
+ =====================*/
+.parallaxWrapper {
+    height: 30rem;
+    width: 100%;
+}
+.parallax {
+    height: 100%;
+    width: 100%;
+    background: url('../images/heartcup.webp') center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallaxScroll {
+    height: 25vh;
+    width: 100%;
+}
+/* ====================
+    Location
+ =====================*/
+#locationWrapper {
+    width: 60%;
+    margin: 15rem auto 30rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.locationHeading {
+    font-size: 2rem;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+.ambianceListing {
+    flex-basis: 31%;
+    height: 40rem;
+}
+.ambianceImg1 {
+    background: url('../images/ambiance1.webp') center no-repeat;
+    background-size: cover;
+}
+.ambianceImg2 {
+    background: url('../images/ambiance2.webp') center  no-repeat;
+    background-size: cover;
+}
+.ambianceImg3 {
+    background: url('../images/ambiance3.webp') center no-repeat;
+    background-size: cover;
+}
+.ambianceImg1, .ambianceImg2, .ambianceImg3 {
+    height: 100%;
+    width: 100%;
+}
+.ambianceDescription {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+
+}
+.ambianceDescription h4 {
+    margin: 1rem 0 1.5rem 0;
+}
+.ambianceDescription p{
+    font-size: 1.4rem;
+}
+/* MODAL */
+.modal, .menuModal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    visibility: hidden;
+    transform: scale(1.1);
+    opacity: 0;
+    transition: visibility 0s, linear .25s, opacity .25s 0s, transform .25s;
+}
+.modalContainer {
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 1rem;
+    top: 50%;
+    left: 50%;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+.showModal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s, linear 0s, opacity .25s 0s, transform .25s;
+}
+.menuModalContainer {
+    width: 25%;
+    height: 50%;
+    border: .05rem solid #222;
+    border-radius: 1rem;
+    top: 35%;
+}
+.modalCloseBtn, .menuModalCloseBtn {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.modalNavList {
+    text-align: center;
+}
+.modalNavLink a{
+    color: #000;
+    text-decoration: none;
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+.menuItem {
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+.menuItem span {
+    text-align: right;
+}
+
+/* ====================
+        UPDATES
+ =====================*/
+.updateWrapper {
+    width: 80%;
+    height: 30rem;
+    background: #1E2D35;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.updateHeading {
+    color: #9E9FA5;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.coffeeUpdate {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.updateInputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.updateInput {
+    background: transparent;
+    outline: #9E9FA5 .1rem solid;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    color: #fff;
+    text-align: center;
+}
+.updateInput::placeholder {
+    color: #9E9FA5;
+}
+.updateBtn {
+    font-size: 1.6rem;
+    border-radius: 0;
+    padding: 1.2rem 2rem;
+}
+/* ====================
+         FOOTER 
+ =====================*/
+
+.footerWrapper {
+    width: 50%;
+    height: 25vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 7rem;
+}
+.footerWrapper a {
+    text-decoration: none;
+    color: #636363;
+}
+.footerCol span {
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: block;
+}
+.col1, .col4 {
+    flex: 2;
+}
+.col2, .col3 {
+    flex: 1;
+}
+.col1 p {
+    font-size: 1.6rem;
+}
+.footerWrapper li {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.col4 p {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.voted {
+    margin-bottom: 3rem;
+}
+.copyright {
+    color: #636363;
+    margin: 2rem 0;
+}
+.footerCol {
+    text-align: center;
+}
+.door {
+    margin-bottom: .5rem;
+}
+.col1 span {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.col4 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8rem;
+}
