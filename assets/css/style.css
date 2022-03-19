@@ -447,10 +447,6 @@ PRODUCT / SERVICE LISTINGS
 .voted {
     margin-bottom: 3rem;
 }
-.copyright {
-    color: #636363;
-    margin: 2rem 0;
-}
 .footerCol {
     text-align: center;
 }
@@ -466,4 +462,8 @@ PRODUCT / SERVICE LISTINGS
     text-decoration: none;
     color: #000;
     font-size: 1.8rem;
+}
+p.copyright {
+    color: #636363;
+    margin: 2rem 0;
 }
