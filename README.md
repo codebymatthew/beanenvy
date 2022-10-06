@@ -1,2 +1,3 @@
-# Bean Envy
-This site was built as an exercise to show my coding skills.
+# Bean Envy  
+
+Website template created for client that utilizes HTML / CSS / JavsScript
